@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>India Smart Traffic System</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+</head>
+
+<body>
+
+<header>
+🚦 INDIA SMART TRAFFIC & WEATHER SYSTEM 🇮🇳
+</header>
+
+<div class="card">
+
+<h2>Search Place</h2>
+
+<input
+type="text"
+id="placeInput"
+placeholder="Enter city, airport, tourist place">
+
+<br>
+
+<button onclick="searchPlace()">
+Search
+</button>
+
+<button onclick="getCurrentLocation()">
+My Location
+</button>
+
+<button onclick="enableNotifications()">
+Enable Notifications
+</button>
+
+<div id="status">
+Live system ready.
+</div>
+
+<div id="weatherResult">
+Weather information will appear here.
+</div>
+
+</div>
+
+<div id="map"></div>
+
+<footer>
+© 2026 India Smart Traffic Project
+</footer>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

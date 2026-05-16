@@ -1,0 +1,90 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:linear-gradient(to right,#141e30,#243b55);
+    color:white;
+    text-align:center;
+}
+
+header{
+    background:black;
+    padding:20px;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.card{
+    background:white;
+    color:black;
+    width:90%;
+    max-width:900px;
+    margin:20px auto;
+    padding:20px;
+    border-radius:15px;
+}
+
+input{
+    width:80%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#f1f1f1;
+    margin:10px;
+    font-size:16px;
+}
+
+button{
+    padding:12px 20px;
+    border:none;
+    border-radius:8px;
+    background:#ff9800;
+    color:white;
+    cursor:pointer;
+    margin:10px;
+    font-size:16px;
+}
+
+button:hover{
+    background:#e68900;
+}
+
+#map{
+    width:95%;
+    height:550px;
+    margin:20px auto;
+    border-radius:15px;
+}
+
+#status{
+    margin-top:20px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+#weatherResult{
+    margin-top:20px;
+    font-size:18px;
+    line-height:1.8;
+}
+
+footer{
+    background:black;
+    padding:15px;
+    margin-top:20px;
+}
+
+@media(max-width:768px){
+
+    input{
+        width:95%;
+    }
+
+    button{
+        width:90%;
+    }
+
+    #map{
+        height:450px;
+    }
+
+}
